@@ -1,0 +1,26 @@
+{
+  "name": "node-adv",
+  "version": "1.0.0",
+  "description": "A simple IoT platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoValdes/node-adv.git"
+  },
+  "author": "Franco Valdes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoValdes/node-adv-db/issues"
+  },
+  "homepage": "https://github.com/FrancoValdes/node-adv-db#readme",
+  "devDependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "standard": "^12.0.1"
+  }
+}
