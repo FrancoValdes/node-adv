@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "@types/node": "^10.9.4",
+    "chalk": "^2.4.1",
     "debug": "^4.0.1",
+    "inquirer": "^6.2.0",
     "pg": "^7.4.3",
     "pg-hstore": "^2.3.2",
     "sequelize": "4.4.2"
