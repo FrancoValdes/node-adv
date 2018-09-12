@@ -3,7 +3,7 @@
 const Sequelize = require('sequelize')
 const setupDatabase = require('../lib/db')
 
-module.exports = async function setupMetricModel (config) {
+module.exports = function setupMetricModel (config) {
   const sequelize = setupDatabase(config)
 
   return sequelize.define('metric', {
