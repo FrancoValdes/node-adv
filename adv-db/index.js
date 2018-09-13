@@ -6,8 +6,7 @@ const setupMetricModel = require('./models/metric')
 const defaults = require('defaults')
 
 module.exports = async function (config) {
-
-    config = defaults(config,{
+  config = defaults(config, {
     dialect: 'sqlite',
     pool: {
       max: 10,
@@ -22,7 +21,6 @@ module.exports = async function (config) {
   const sequelize = setupDataBase(config)
   const agent = setupAgentModel(config)
   const metric = setupMetricModel(config)
-  
 
   agent.hasMany(metric)
   metric.belongsTo(agent)
